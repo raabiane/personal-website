@@ -1,0 +1,60 @@
+/* Import the Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Apply Montserrat as the default font for all elements */
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 0;
+    letter-spacing: -0.01em;
+}
+
+/* Styles for the navigation bar */
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0.5rem;
+}
+
+/* Styles for the content within the navigation bar */
+.nav-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+/* Styles for the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav-links li {
+    margin: 0.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+
+/* Styles for navigation links on hover and when active */
+.nav-links a:hover,
+.nav-links a:active {
+    color: #FFA500;
+    text-decoration: none;
+}
+
+/* Styles for the "Resume" link */
+.nav-links #resume a {
+    color: #FFA500;
+    text-decoration: none;
+}
