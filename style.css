@@ -1,5 +1,5 @@
 /* Import the Montserrat font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
 
 /* Apply Montserrat as the default font for all elements */
 * {
@@ -8,7 +8,7 @@
     letter-spacing: -0.01em;
 }
 
-/* Styles for the navigation bar */
+/* Navigation bar */
 nav {
     position: absolute;
     top: 0;
@@ -17,16 +17,15 @@ nav {
     padding: 0.5rem;
 }
 
-/* Styles for the content within the navigation bar */
+/* Content within the navigation bar */
 .nav-content {
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem;
 }
 
-/* Styles for the navigation links */
+/* Navigation links */
 .nav-links {
     list-style: none;
     display: flex;
@@ -46,30 +45,28 @@ nav {
     transition: color 0.3s;
 }
 
-/* Styles for navigation links on hover and when active */
+/* Navigation links on hover and when active */
 .nav-links a:hover,
 .nav-links a:active {
     color: #FFA500;
-    text-decoration: none;
 }
 
-/* Styles for the "Resume" link */
+/* "Resume" link */
 .nav-links #resume a {
     color: #FFA500;
-    text-decoration: none;
 }
 
-/* Styles for the home header section */
+/* Home header section */
 .home {
-    margin: 7em 8em 5em 8em;
-    padding: 8em 8em 5em 8em;
+    margin: 8em;
+    padding: 8em;
 }
 
 .home div p {
     font-size: 2.5em;
 }
 
-/* Styles for the about section */
+/* About section */
 .about {
     background-image: url('../img/about-frame.png');
     background-size: 133%;
@@ -83,7 +80,6 @@ nav {
     margin-bottom: 4.25em;
 }
 
-/* Styles for the text within the about section */
 .about-text {
     display: flex;
     flex-direction: column;
@@ -93,4 +89,4 @@ nav {
     flex-grow: 1;
     font-size: 1.5em;
     line-height: 1.5em;
-}
+  }
