@@ -89,4 +89,19 @@ nav {
     flex-grow: 1;
     font-size: 1.5em;
     line-height: 1.5em;
-  }
+}
+
+/* Skills section */
+.skills {
+    background-image: url('../img/skills-frame.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 39% center;
+    padding: 15em 0 13.5em 0;
+    margin-right: 1.5em;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
