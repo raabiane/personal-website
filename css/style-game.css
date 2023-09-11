@@ -1,0 +1,48 @@
+/* Game container */
+.game {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 30em;
+  padding: 3em;
+  transform: translate(-71%, -11%);
+  left: 50%;
+  text-align: center;
+  border-radius: 1em;
+  position: relative;
+}
+
+#hint-ref {
+  margin-bottom: 0.5em;
+}
+
+.inputSpace {
+  text-align: center;
+  margin-right: 0.2em;
+}
+
+/* Letter buttons */
+#letter-container button {
+  background-color: #ffffff;
+  border: 2px solid #7786f5;
+  color: #7786f5;
+  outline: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  height: 3em;
+  width: 3em;
+  margin: 0.4em;
+}
+
+/* Chance count */
+#chanceCount {
+  margin: 1em 0;
+  position: absolute;
+  top: 16em;
+  right: 10em;
+}
