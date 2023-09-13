@@ -46,3 +46,46 @@
   top: 16em;
   right: 10em;
 }
+
+/* Finished game container */
+.controls-container {
+  background-color: #7786f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  max-width: 22em;
+  padding: 3em;
+  top: 340%;
+  left: 51.1%;
+  text-align: center;
+  border-radius: 1em;
+  position: absolute;
+}
+
+#word {
+  font-weight: 600;
+  margin: 1em 0 2em 0;
+}
+
+#word span {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* Restart button */
+#restart {
+  font-size: 1.2em;
+  padding: 1em 3em;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 2em;
+  cursor: pointer;
+}
+
+/* Hide the finished game container */
+.hide {
+  display: none;
+}
