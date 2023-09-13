@@ -2,6 +2,15 @@
 const options = {
   python: "Snake",
   java: "Coffee",
+  git: "Branching out",
+  agile: "Sprint and giggles",
+  nodejs: "JavaScript's wild side",
+  sql: "Querying for treasures",
+  javascript: "ECMA-larious",
+  css: "Styling chaos",
+  html: "Markup magic",
+  csharp: "Microsoft's baby",
+  godot: "Playing with gods",
 };
 
 // Initial References
