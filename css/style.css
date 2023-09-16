@@ -216,7 +216,7 @@ nav {
     top: -1.2em;
 }
 
-/* Project grouping */
+/* Projects grouping */
 .proj-four,
 .proj-two {
     display: flex;
@@ -234,6 +234,8 @@ nav {
     margin: 2.5em 6em 3em 2.5em;
 }
 
+
+/* Content of the projects */
 .proj-content-right {
     flex: 2;
     padding-left: 5.5em;
@@ -246,6 +248,7 @@ nav {
     line-height: 2em;
 }
 
+/* Projects images */
 .proj-image-right {
     flex: 1;
     padding: 5em 5em 5em 2em;
@@ -264,6 +267,7 @@ nav {
     height: auto;
 }
 
+/* Project details (subject, title, text, skills) */
 .subject {
     color: #4F4F4F;
     font-weight: 500;
@@ -297,6 +301,7 @@ nav {
     text-transform: lowercase;
 }
 
+/* Projects skills with different colors */
 .proj-five-skills {
     color: #4F4F4F;
 }
