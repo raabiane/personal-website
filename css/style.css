@@ -259,7 +259,7 @@ nav {
     margin: 0.5em 0;
 }
 
-.proj-five-skills {
+.proj-one-skills {
     color: #4F4F4F;
     text-align: justify;
     font-size: 0.8em;
@@ -271,7 +271,7 @@ nav {
 }
 
 /* Project links */
-p.proj-five-link a {
+p.proj-one-link a {
     color: #000 !important;
     text-align: justify;
     font-weight: 500;
