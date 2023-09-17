@@ -145,4 +145,4 @@ const init = () => {
   }
 };
 
-window.onload = restartGame; // Inicia o jogo quando a página carrega
+window.onload = restartGame;
