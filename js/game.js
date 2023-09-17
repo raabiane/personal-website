@@ -1,4 +1,4 @@
-//Word and Hints Object
+// Word and Hints Object
 const options = {
   python: "Snake",
   java: "Coffee",
