@@ -55,4 +55,4 @@ personal-website/
 
 If you liked my website and want to contribute or make suggestions, feel free to fork this repository and submit your changes through pull requests. I'd love to receive your feedback and further improve my site!
 
-Thank you for visiting my professional portfolio. I hope you enjoy my journey and the information shared here. Feel free to explore my website and learn more about me and my work! 😄
+Thank you for visiting my professional portfolio. I hope you enjoy my journey and the information shared here. Feel free to explore and learn more about me and my work! 😄
