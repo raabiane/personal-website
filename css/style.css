@@ -255,22 +255,60 @@ nav {
 }
 
 /* Projects images */
+.proj-image-right img,
+.proj-image-left img {
+    max-width: 35em;
+    height: auto;
+}
+
 .proj-image-right {
     flex: 1;
     padding: 5em 5em 5em 2em;
+    transform: translateX(25%);
     text-align: center;
+}
+
+.proj-image-right.animated {
+    animation: slideInFromRight 2s ease forwards;
+}
+
+/* Define a keyframe animation named slideInFromRight */
+@keyframes slideInFromRight {
+
+    /* At 0% of the animation, start with the element translated to the right (25%) */
+    0% {
+        transform: translateX(25%);
+    }
+
+    /* At 100% of the animation, bring the element back to its original position (transform: translateX(0)) */
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .proj-image-left {
     flex: 1;
     padding: 5em 2em 5em 5em;
+    transform: translateX(-25%);
     text-align: center;
 }
 
-.proj-image-right img,
-.proj-image-left img {
-    max-width: 35em;
-    height: auto;
+.proj-image-left.animated {
+    animation: slideInFromLeft 2s ease forwards;
+}
+
+/* Define a keyframe animation named slideInFromLeft */
+@keyframes slideInFromLeft {
+
+    /* At 0% of the animation, start with the element translated to the left (-25%) */
+    0% {
+        transform: translateX(-25%);
+    }
+
+    /* At 100% of the animation, bring the element back to its original position (transform: translateX(0)) */
+    100% {
+        transform: translateX(0);
+    }
 }
 
 /* Project details (subject, title, text, skills) */
