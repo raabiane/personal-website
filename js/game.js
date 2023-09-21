@@ -1,9 +1,9 @@
-// Word and Hints Object
+// Word and Hints
 const options = {
   python: "Snake",
   java: "Coffee",
   git: "Branching out",
-  agile: "Sprint and giggles",
+  agile: "Start of Sprint: 😀, End: 💀",
   nodejs: "JavaScript's wild side",
   sql: "Querying for treasures",
   javascript: "ECMA-larious",
