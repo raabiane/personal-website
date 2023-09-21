@@ -1,4 +1,6 @@
-# Welcome to my personal repository, where you can find the source code of my minimalist portfolio website! 😊🚀
+# Welcome to my personal repository 😊🚀
+
+### Where you can find the source code of my minimalist portfolio website!
 
 ## Website Feature 🌟
 
@@ -40,7 +42,7 @@ personal-website/
 |   ├── PIRELLI-frame.png
 |   ├── Rockwell-Automation-frame.png
 |   ├── skills-frame.png
-│   └──  work-frame.png
+│   └── work-frame.png
 │
 ├── js/
 │   ├── game.js

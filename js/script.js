@@ -1,19 +1,17 @@
 // Function to handle clicks on menu links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+$('a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
 
-        // Get the target ID from the href attribute
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
+    // Get the target ID from the href attribute
+    const targetId = $(this).attr('href').substring(1);
+    const targetElement = $('#' + targetId);
 
-        if (targetElement) {
-            // Smooth scroll to the target element
-            targetElement.scrollIntoView({
-                behavior: 'smooth'
-            });
-        }
-    });
+    if (targetElement.length) {
+        // Smooth scroll to the target element
+        $('html, body').animate({
+            scrollTop: targetElement.offset().top
+        }, 'smooth');
+    }
 });
 
 // Initialize an object to track the completion of animations for specific projects
@@ -27,14 +25,14 @@ let animationCompleted = {
 
 // Function to check if a project is visible and trigger animation if not completed
 function checkProjectVisibility(projectSelector, projectName, animationClass) {
-    const project = document.querySelector(projectSelector);
-    const windowHeight = window.innerHeight;
-    const rect = project.getBoundingClientRect();
+    const project = $(projectSelector);
+    const windowHeight = $(window).height();
+    const rect = project[0].getBoundingClientRect();
 
     if (!animationCompleted[projectName] && rect.top <= windowHeight / 2 && rect.bottom >= 0) {
         // If the project is in the viewport, add the animation class
-        const projImageLeft = project.querySelector(animationClass);
-        projImageLeft.classList.add('animated');
+        const projImageLeft = project.find(animationClass);
+        projImageLeft.addClass('animated');
 
         // Mark the animation as completed for this project
         animationCompleted[projectName] = true;
@@ -52,7 +50,7 @@ function handleScroll() {
 }
 
 // Add a scroll event listener to trigger animations on scroll
-window.addEventListener('scroll', handleScroll);
+$(window).on('scroll', handleScroll);
 
 // Add a load event listener to trigger animations on page load
-window.addEventListener('load', handleScroll);
+$(window).on('load', handleScroll);
