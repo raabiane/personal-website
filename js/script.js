@@ -15,7 +15,7 @@ $('a[href^="#"]').on('click', function(e) {
 });
 
 // Initialize an object to track the completion of animations for specific projects
-let animationCompleted = {
+const animationCompleted = {
     projectOne: false,
     projectTwo: false,
     projectThree: false,
@@ -50,7 +50,34 @@ function handleScroll() {
 }
 
 // Add a scroll event listener to trigger animations on scroll
-$(window).on('scroll', handleScroll);
+$(window).on('scroll', function () {
+    handleScroll();
 
-// Add a load event listener to trigger animations on page load
-$(window).on('load', handleScroll);
+    // Function to add the 'animated' class to elements when they are in the viewport
+    function animateContent(elements) {
+        elements.each(function () {
+            const rect = this.getBoundingClientRect();
+            const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+
+            // If the element is in the viewport, add the 'animated' class
+            if (rect.top < viewportHeight) {
+                $(this).addClass('animated');
+            }
+        });
+    }
+
+    // Get all elements with the class 'proj-content-right'
+    const projContentRightElements = $('.proj-content-right');
+
+    // Get all elements with the class 'proj-content-left'
+    const projContentLeftElements = $('.proj-content-left');
+
+    // Call the function to check elements on page load
+    animateContent(projContentRightElements);
+    animateContent(projContentLeftElements);
+});
+
+// Trigger animations on page load
+$(window).on('load', function () {
+    handleScroll();
+});  

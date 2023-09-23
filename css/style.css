@@ -215,6 +215,10 @@ nav {
     font-size: 1.1em;
 }
 
+.proj-number{
+    overflow: hidden;
+}
+
 #projects-title {
     text-align: center;
     font-size: 2.3em;
@@ -246,12 +250,23 @@ nav {
     flex: 2;
     padding-left: 5.5em;
     line-height: 2em;
+    transform: translateX(25%);
+}
+
+.proj-content-right.animated {
+    animation: slideInFromRight 1s ease forwards;
 }
 
 .proj-content-left {
     flex: 2;
     padding-right: 5.5em;
     line-height: 2em;
+    transform: translateX(-25%);
+    overflow: hidden;
+}
+
+.proj-content-left.animated {
+    animation: slideInFromLeft 1s ease forwards;
 }
 
 /* Projects images */
@@ -269,7 +284,7 @@ nav {
 }
 
 .proj-image-right.animated {
-    animation: slideInFromRight 2s ease forwards;
+    animation: slideInFromRight 1s ease forwards;
 }
 
 /* Define a keyframe animation named slideInFromRight */
@@ -294,7 +309,7 @@ nav {
 }
 
 .proj-image-left.animated {
-    animation: slideInFromLeft 2s ease forwards;
+    animation: slideInFromLeft 1s ease forwards;
 }
 
 /* Define a keyframe animation named slideInFromLeft */
@@ -395,14 +410,15 @@ footer {
     background-size: 101%;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 10em 0;
+    padding-top: 12em;
+    padding-bottom: 10em;
     position: relative;
 }
 
 footer .social-links {
     text-align: center;
     position: absolute;
-    top: 4.7em;
+    top: 6em;
     left: 0.75em;
     right: 0;
 }
