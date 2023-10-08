@@ -500,4 +500,14 @@ footer p {
     #navbar>#nav-check:checked~.nav-links {
         height: calc(100vh - 50px);
     }
+
+    /* Home header section */
+    .home {
+        margin: 12em 8em 10em 3em;
+        padding: 6em 8em 10em 3em;
+    }
+
+    .home div p {
+        font-size: 2.25em;
+    }
 }
