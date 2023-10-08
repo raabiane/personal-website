@@ -451,6 +451,7 @@ footer p {
 
 /* Styles for screens smaller than or equal to 480px (typical for mobile) */
 @media (max-width: 480px) {
+
     /* Navigation button */
     #navbar>.nav-btn {
         display: inline-block;
@@ -509,5 +510,29 @@ footer p {
 
     .home div p {
         font-size: 2.25em;
+    }
+
+    /* About section */
+    .about {
+        background-image: url('../img/about-frame-mobile.png');
+        background-size: 140%;
+        background-repeat: no-repeat;
+        background-position: 28% center;
+        padding: 18em 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    #about-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5em 2em;
+        flex-grow: 1;
+        font-size: 1em;
+        line-height: 1.5em;
     }
 }
