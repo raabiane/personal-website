@@ -451,6 +451,7 @@ footer p {
 
 /* Styles for screens smaller than or equal to 480px (typical for mobile) */
 @media (max-width: 480px) {
+    /* Navigation button */
     #navbar>.nav-btn {
         display: inline-block;
         position: absolute;
@@ -459,12 +460,14 @@ footer p {
         padding-top: 0.2em;
     }
 
+    /* Label inside the navigation button */
     #navbar>.nav-btn>label {
         display: inline-block;
         width: 2em;
         padding: 0.75em;
     }
 
+    /* Span inside the label */
     #navbar>.nav-btn>label>span {
         display: block;
         width: 25px;
@@ -472,6 +475,7 @@ footer p {
         border-top: 3px solid black;
     }
 
+    /* Navigation links container */
     #navbar>.nav-links {
         position: absolute;
         display: flex;
@@ -487,10 +491,12 @@ footer p {
         font-size: 1.25em;
     }
 
+    /* List items inside the navigation links */
     #navbar>.nav-links>li {
         margin-left: 5em;
     }
 
+    /* Navigation links when the checkbox is checked */
     #navbar>#nav-check:checked~.nav-links {
         height: calc(100vh - 50px);
     }
