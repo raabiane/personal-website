@@ -33,6 +33,7 @@ nav {
     padding: 0;
     justify-content: center;
     flex-grow: 1;
+    gap: 0.5em;
 }
 
 .nav-links li {
@@ -43,6 +44,10 @@ nav {
     text-decoration: none;
     color: #000;
     transition: color 0.3s;
+}
+
+#navbar>#nav-check {
+    display: none;
 }
 
 /* Navigation links on hover and when active */
@@ -215,7 +220,7 @@ nav {
     font-size: 1.1em;
 }
 
-.proj-number{
+.proj-number {
     overflow: hidden;
 }
 
@@ -442,4 +447,51 @@ footer p {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+/* Styles for screens smaller than or equal to 480px (typical for mobile) */
+@media (max-width: 480px) {
+    #navbar>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 0.2em;
+    }
+
+    #navbar>.nav-btn>label {
+        display: inline-block;
+        width: 2em;
+        padding: 0.75em;
+    }
+
+    #navbar>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 3px solid black;
+    }
+
+    #navbar>.nav-links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 100%;
+        background-color: #f4f4f4;
+        height: 0;
+        transition: all 0.3s ease-in;
+        top: 2.9em;
+        left: 0;
+        overflow: hidden;
+        font-size: 1.25em;
+    }
+
+    #navbar>.nav-links>li {
+        margin-left: 5em;
+    }
+
+    #navbar>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+    }
 }
