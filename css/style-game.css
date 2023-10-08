@@ -89,3 +89,98 @@
 .hide {
   display: none;
 }
+
+/* Styles for screens smaller than or equal to 480px (typical for mobile) */
+@media (max-width: 480px) {
+  /* Game container */
+  .game {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .wrapper {
+    width: 55%;
+    max-width: 30em;
+    padding: 3em;
+    transform: translateX(-43%);
+    left: 50%;
+    text-align: center;
+    border-radius: 1em;
+    position: relative;
+  }
+
+  #hint-ref {
+    margin-bottom: 0.5em;
+  }
+
+  .inputSpace {
+    text-align: center;
+    margin-right: 0.2em;
+  }
+
+  /* Letter buttons */
+  #letter-container button {
+    background-color: #ffffff;
+    border: 2px solid #7786f5;
+    color: #7786f5;
+    outline: none;
+    border-radius: 0.3em;
+    cursor: pointer;
+    height: 2.5em;
+    width: 2.5em;
+    margin: 0.2em;
+  }
+
+  /* Chance count */
+  #chanceCount {
+    margin: 1em 0;
+    position: absolute;
+    top: 15.85em;
+    right: 5em;
+  }
+
+  /* Finished game container */
+  .controls-container {
+    background-color: #7786f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    max-width: 12em;
+    padding: 3em;
+    top: 258.15%;
+    left: 41.55%;
+    text-align: center;
+    border-radius: 1em;
+    position: absolute;
+  }
+
+  #word {
+    font-weight: 600;
+    margin: 1em 0 2em 0;
+  }
+
+  #word span {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  /* Restart button */
+  #restart {
+    font-size: 1.2em;
+    padding: 1em 3em;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 2em;
+    cursor: pointer;
+  }
+
+  /* Hide the finished game container */
+  .hide {
+    display: none;
+  }
+}

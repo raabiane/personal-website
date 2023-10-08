@@ -535,4 +535,31 @@ footer p {
         font-size: 1em;
         line-height: 1.5em;
     }
+
+    /* Skills section */
+    #skills {
+        margin: auto 0;
+        background-image: url('../img/skills-frame-mobile.png');
+        background-size: 175%;
+        background-repeat: no-repeat;
+        background-position: 62% center;
+        padding: 10em 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    #skills .game {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Skills title */
+    #skills-title {
+        display: none;
+    }
 }
