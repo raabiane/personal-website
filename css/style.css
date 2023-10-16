@@ -94,9 +94,22 @@ nav {
     flex-grow: 1;
     font-size: 1.5em;
     line-height: 1.5em;
+    margin: 0 10em;
 }
 
 /* Skills section */
+#skills-title {
+    display: flex;
+    align-items: left;
+    text-align: left;
+    margin-top: 7em;
+    margin-left: 1.8em;
+    padding: 0 1.5em 1em 1.5em;
+    flex-grow: 1;
+    font-size: 2.3em;
+    line-height: 1.5;
+}
+
 #skills {
     background-image: url('../img/skills-frame.png');
     background-size: 100%;
@@ -109,19 +122,6 @@ nav {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-}
-
-/* Skills title */
-#skills p {
-    display: flex;
-    align-items: left;
-    text-align: left;
-    margin-top: 7em;
-    margin-left: 1.8em;
-    padding: 0 1.5em 1em 1.5em;
-    flex-grow: 1;
-    font-size: 2.3em;
-    line-height: 1.5;
 }
 
 /* Work section */
@@ -450,7 +450,7 @@ footer p {
 }
 
 /* Styles for screens smaller than or equal to 480px (typical for mobile) */
-@media (max-width: 480px) {
+@media (max-width: 580px) {
 
     /* Navigation button */
     #navbar>.nav-btn {
@@ -465,7 +465,7 @@ footer p {
     #navbar>.nav-btn>label {
         display: inline-block;
         width: 2em;
-        padding: 0.75em;
+        padding: 1.25em;
     }
 
     /* Span inside the label */
@@ -486,7 +486,7 @@ footer p {
         background-color: #f4f4f4;
         height: 0;
         transition: all 0.3s ease-in;
-        top: 2.9em;
+        top: 3.5em;
         left: 0;
         overflow: hidden;
         font-size: 1.25em;
@@ -504,8 +504,8 @@ footer p {
 
     /* Home header section */
     .home {
-        margin: 12em 8em 10em 3em;
-        padding: 6em 8em 10em 3em;
+        margin: 10em 2em 10em 2em;
+        padding: 12em 2em 10em 2em;
     }
 
     .home div p {
@@ -515,10 +515,10 @@ footer p {
     /* About section */
     .about {
         background-image: url('../img/about-frame-mobile.png');
-        background-size: 140%;
+        background-size: 200%;
         background-repeat: no-repeat;
-        background-position: 28% center;
-        padding: 18em 0;
+        background-position: 35% center;
+        padding: 12em 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -532,24 +532,37 @@ footer p {
         text-align: center;
         padding: 5em 2em;
         flex-grow: 1;
-        font-size: 1em;
+        font-size: 1.25em;
         line-height: 1.5em;
+        margin: 0 2em;
     }
 
     /* Skills section */
+    #skills-title {
+        position: absolute;
+        top: -5em;
+        left: -2em;
+        width: 80%;
+        text-align: center;
+        padding: 1.5em;
+        font-size: 2em;
+        line-height: 1.5;
+    }
+
     #skills {
         margin: auto 0;
         background-image: url('../img/skills-frame-mobile.png');
         background-size: 175%;
         background-repeat: no-repeat;
         background-position: 62% center;
-        padding: 10em 0;
+        padding: 22em 0;
         margin-right: 0;
         margin-bottom: 0;
         display: flex;
         align-items: center;
         justify-content: center;
         overflow: hidden;
+        position: relative;
     }
 
     #skills .game {
@@ -558,8 +571,79 @@ footer p {
         justify-content: center;
     }
 
-    /* Skills title */
-    #skills-title {
-        display: none;
+    /* Work section */
+    .work {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-image: none;
+        background-size: 100%;
+        background-position: 2% center;
+    }
+
+    #work-title {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2.3em;
+        font-weight: 400;
+        line-height: 1.5;
+        position: relative;
+        top: -0.5em;
+        font-size: 2em;
+    }
+
+    .work-text {
+        text-align: center;
+        margin-top: 3.5em;
+        background-color: #f4f4f4;
+        width: 90%;
+        height: 54%;
+        border-radius: 2em;
+    }    
+
+    .work-text img {
+        width: 91%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .position,
+    .time {
+        display: inline-block;
+        transform: translateY(425%);
+        font-size: 1.1em;
+    }
+
+    .position {
+        position: absolute;
+        left: 4em;
+    }
+    
+    .time {
+        position: absolute;
+        right: 4em;
+    }
+
+    .description {
+        width: 71%;
+        line-height: 1.5em;
+        margin-top: 7em;
+        text-align: justify;
+        font-size: 1.1em;
+    }
+
+    .work-skills {
+        width: 71%;
+        font-size: 0.9em;
+        word-spacing: 1em;
+        line-height: 1.5em;
+        top: auto;
+        left: auto;
+        margin-top: 1.5em;
+        color: #082D6C;
+        font-weight: 600;
+        text-transform: lowercase;
     }
 }
