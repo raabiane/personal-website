@@ -31,6 +31,7 @@ personal-website/
 │   └── Raab-Iane-Software-Engineer-Internship-Resume.pdf
 │
 ├── img/
+│   ├── about-frame-mobile.png
 │   ├── about-frame.png
 │   ├── BTG-Pactual-icon.png
 │   ├── Dell-frame.png
@@ -41,7 +42,9 @@ personal-website/
 |   ├── MRV-frame.png
 |   ├── PIRELLI-frame.png
 |   ├── Rockwell-Automation-frame.png
+|   ├── skills-frame-mobile.png
 |   ├── skills-frame.png
+|   ├── work-frame-mobile.png
 │   └── work-frame.png
 │
 ├── js/

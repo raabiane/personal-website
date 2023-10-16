@@ -520,24 +520,13 @@ footer p {
     .about {
         background-image: url('../img/about-frame-mobile.png');
         background-size: 200%;
-        background-repeat: no-repeat;
         background-position: 35% center;
         padding: 12em 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
     }
 
     #about-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
         padding: 5em 2em;
-        flex-grow: 1;
         font-size: 1.25em;
-        line-height: 1.5em;
         margin: 0 2em;
     }
 
@@ -550,55 +539,29 @@ footer p {
         text-align: center;
         padding: 1.5em;
         font-size: 2em;
-        line-height: 1.5;
     }
 
     #skills {
-        margin: auto 0;
         background-image: url('../img/skills-frame-mobile.png');
         background-size: 175%;
-        background-repeat: no-repeat;
         background-position: 62% center;
         padding: 22em 0;
         margin-right: 0;
         margin-bottom: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
         position: relative;
-    }
-
-    #skills .game {
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     /* Work section */
     .work {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
         background-image: none;
-        background-size: 100%;
-        background-position: 2% center;
     }
 
     #work-title {
-        text-align: center;
-        margin: 0 auto;
-        font-weight: 400;
-        line-height: 1.5;
-        position: relative;
         top: -0.5em;
         font-size: 2em;
     }
 
     .work-text {
-        text-align: center;
         margin-top: 3.5em;
         background-color: #f4f4f4;
         width: 90%;
@@ -608,54 +571,33 @@ footer p {
 
     .work-text img {
         width: 91%;
-        margin: 0 auto;
-        position: relative;
     }
 
     .position,
     .time {
-        display: inline-block;
         transform: translateY(425%);
-        font-size: 1.1em;
     }
 
     .position {
-        position: absolute;
         left: 4em;
     }
 
     .time {
-        position: absolute;
         right: 4em;
     }
 
     .description {
         width: 71%;
-        line-height: 1.5em;
-        margin-top: 7em;
-        text-align: justify;
-        font-size: 1.1em;
+        margin-top: 6.8em;
     }
 
     .work-skills {
         width: 71%;
-        font-size: 0.9em;
-        word-spacing: 1em;
-        line-height: 1.5em;
-        top: auto;
-        left: auto;
-        margin-top: 1.5em;
-        color: #082D6C;
-        font-weight: 600;
-        text-transform: lowercase;
     }
 
     /* Projects section */
     #projects-title {
-        text-align: center;
         font-size: 2em;
-        font-weight: 400;
-        position: relative;
         top: -3.5em;
         padding: 0 2em;
     }
@@ -667,9 +609,6 @@ footer p {
     .proj-two,
     .proj-one {
         display: contents;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
     }
 
     /* Content of the projects */
@@ -677,7 +616,6 @@ footer p {
     .proj-content-right {
         flex: none;
         padding: 2em 3em 10em 3em;
-        line-height: 2em;
         transform: none;
     }
 
@@ -700,7 +638,6 @@ footer p {
         flex: none;
         padding: 0;
         transform: none;
-        text-align: center;
     }
 
     .proj-image-right img,
@@ -715,40 +652,15 @@ footer p {
 
     /* Footer section */
     footer {
-        background-image: url('../img/footer-frame.png');
         background-size: 125%;
-        background-repeat: no-repeat;
-        background-position: bottom;
         padding: 3.5em;
-        position: relative;
     }
 
     footer .social-links {
-        text-align: center;
-        position: absolute;
         top: 0.5em;
-        left: 0;
-        right: 0;
-    }
-
-    footer .social-links a {
-        margin: 0 0.15em;
-        display: inline-block;
-    }
-
-    footer .social-links img {
-        width: 1.3em;
-        height: 1.3em;
     }
 
     footer p {
-        font-size: 0.8em;
-        text-align: center;
         margin-bottom: 10em;
-        font-weight: 400;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
     }
 }
