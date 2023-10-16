@@ -10,7 +10,8 @@
   width: 90%;
   max-width: 30em;
   padding: 3em;
-  transform: translate(-80%, 35%);
+  padding-left: 20em;
+  transform: translate(-77%, 35%);
   left: 50%;
   text-align: center;
   border-radius: 1em;
@@ -91,7 +92,8 @@
 }
 
 /* Styles for screens smaller than or equal to 480px (typical for mobile) */
-@media (max-width: 480px) {
+@media (max-width: 580px) {
+
   /* Game container */
   .game {
     padding: 0;
@@ -101,10 +103,10 @@
   }
 
   .wrapper {
-    width: 55%;
+    width: 70%;
     max-width: 30em;
     padding: 3em;
-    transform: translateX(-43%);
+    transform: translateX(-40%);
     left: 50%;
     text-align: center;
     border-radius: 1em;
@@ -137,7 +139,7 @@
   #chanceCount {
     margin: 1em 0;
     position: absolute;
-    top: 15.85em;
+    top: 16em;
     right: 5em;
   }
 
@@ -151,8 +153,8 @@
     width: 50%;
     max-width: 12em;
     padding: 3em;
-    top: 258.15%;
-    left: 41.55%;
+    top: 39.5%;
+    left: 25.5%;
     text-align: center;
     border-radius: 1em;
     position: absolute;
