@@ -92,7 +92,7 @@
 }
 
 /* Styles for screens smaller than or equal to 480px (typical for mobile) */
-@media (max-width: 580px) {
+@media (max-width: 480px) {
 
   /* Game container */
   .game {
