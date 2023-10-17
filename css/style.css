@@ -525,7 +525,7 @@ footer p {
     }
 
     #about-text {
-        padding: 5em 2em;
+        padding: 5em 1em;
         font-size: 1.25em;
         margin: 0 2em;
     }
@@ -579,11 +579,11 @@ footer p {
     }
 
     .position {
-        left: 4em;
+        left: 3.8em;
     }
 
     .time {
-        right: 4em;
+        right: 3.7em;
     }
 
     .description {
