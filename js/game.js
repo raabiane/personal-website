@@ -141,4 +141,11 @@ const init = () => {
   }
 };
 
+$(document).on("keydown", function (event) {
+  if (event.keyCode >= 65 && event.keyCode <= 90) {
+    const letter = String.fromCharCode(event.keyCode);
+    $(".letters:contains(" + letter + ")").click();
+  }
+});
+
 $(window).on("load", restartGame);
