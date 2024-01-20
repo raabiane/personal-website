@@ -35,6 +35,7 @@ personal-website/
 │   ├── about-frame.png
 │   ├── BTG-Pactual-icon.png
 │   ├── Dell-frame.png
+│   ├── fantastic-bird-icon.png
 |   ├── FMUSP-frame.png
 |   ├── footer-frame.png
 |   ├── GitHub-icon.png
@@ -60,5 +61,7 @@ personal-website/
 ## How to Contribute 🤝
 
 If you liked my website and want to contribute or make suggestions, feel free to fork this repository and submit your changes through pull requests. I'd love to receive your feedback and further improve my site!
+
+**Note:** The images used are freely obtained from Figma.
 
 Thank you for visiting my professional portfolio. I hope you enjoy my journey and the information shared here. 😄
