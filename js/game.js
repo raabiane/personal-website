@@ -1,10 +1,13 @@
 // Word and Hints
 const options = {
+  spring: "Java Blooms Framework",
+  react: "Component Drama Queen",
+  express: "Node Express Yourself",
+  flask: "Python, web, flask-tastic!",
   python: "Snake",
   java: "Coffee",
   git: "Branching out",
   agile: "Start of Sprint: 😀, End: 💀",
-  nodejs: "JavaScript's wild side",
   sql: "Querying for treasures",
   javascript: "ECMA-larious",
   css: "Styling chaos",

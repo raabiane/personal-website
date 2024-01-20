@@ -1,6 +1,6 @@
 # Welcome to my personal repository 😊🚀
 
-### Where you can find the source code of my minimalist [portfolio website](https://raabiane.github.io)!
+### Where you can find the source code of my minimalist [portfolio website](https://raabiane.github.io/personal-website/)!
 
 ## Website Feature 🌟
 
@@ -28,7 +28,7 @@ personal-website/
 │   └── style.css
 │
 ├── files/
-│   └── Raab-Iane-Software-Engineer-Internship-Resume.pdf
+│   └── Raab-Iane-Software-Engineer.pdf
 │
 ├── img/
 │   ├── about-frame-mobile.png
@@ -44,6 +44,7 @@ personal-website/
 |   ├── Rockwell-Automation-frame.png
 |   ├── skills-frame-mobile.png
 |   ├── skills-frame.png
+|   ├── V.tal-frame.png
 |   ├── work-frame-mobile.png
 │   └── work-frame.png
 │
@@ -60,4 +61,4 @@ personal-website/
 
 If you liked my website and want to contribute or make suggestions, feel free to fork this repository and submit your changes through pull requests. I'd love to receive your feedback and further improve my site!
 
-Thank you for visiting my professional portfolio. I hope you enjoy my journey and the information shared here. Feel free to explore and learn more about me and my work! 😄
+Thank you for visiting my professional portfolio. I hope you enjoy my journey and the information shared here. 😄
