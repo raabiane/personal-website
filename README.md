@@ -28,7 +28,7 @@ personal-website/
 │   └── style.css
 │
 ├── files/
-│   └── Raab-Iane-Software-Engineer.pdf
+│   └── Raab-Iane-Software-Engineer-Internship-Resume.pdf
 │
 ├── img/
 │   ├── about-frame-mobile.png
