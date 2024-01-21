@@ -40,6 +40,13 @@
   margin: 0.4em;
 }
 
+#letter-container button.chosen {
+  background-color: #d3d3d3;
+  color: #a0a0a0;
+  border: 2px solid #a0a0a0;
+  opacity: 0.6;
+}
+
 /* Chance count */
 #chanceCount {
   margin: 1em 0;

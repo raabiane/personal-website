@@ -134,6 +134,8 @@ const init = () => {
 
       // Disable clicked buttons
       button.prop("disabled", true);
+      // Add the "chosen" class to the clicked key
+      button.addClass("chosen");
     });
 
     // Append generated buttons to the letters container
