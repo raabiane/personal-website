@@ -242,6 +242,7 @@ nav {
     margin: 3em 2.5em 2.5em 6em;
 }
 
+.proj-seven,
 .proj-five,
 .proj-three,
 .proj-one {
@@ -356,6 +357,7 @@ nav {
     margin: 0.5em 0;
 }
 
+.proj-seven-skills,
 .proj-six-skills,
 .proj-five-skills,
 .proj-four-skills,
@@ -372,6 +374,10 @@ nav {
 }
 
 /* Projects skills with different colors */
+.proj-seven-skills {
+    color: #68049b;
+}
+
 .proj-six-skills,
 .proj-five-skills {
     color: #4F4F4F;
@@ -394,6 +400,7 @@ nav {
 }
 
 /* Project links */
+p.proj-seven-link a,
 p.proj-six-link a,
 p.proj-five-link,
 p.proj-four-link a,
@@ -406,6 +413,7 @@ p.proj-one-link a {
     text-decoration: none;
 }
 
+p.proj-seven-link,
 p.proj-six-link,
 p.proj-five-link,
 p.proj-two-link {
@@ -608,6 +616,7 @@ footer p {
     }
 
     /* Projects grouping */
+    .proj-seven,
     .proj-six,
     .proj-five,
     .proj-four,

@@ -46,6 +46,7 @@ personal-website/
 |   ├── skills-frame-mobile.png
 |   ├── skills-frame.png
 |   ├── V.tal-frame.png
+|   ├── Vivo-frame.png
 |   ├── work-frame-mobile.png
 │   └── work-frame.png
 │

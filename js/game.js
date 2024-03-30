@@ -1,7 +1,6 @@
 // Word and Hints
 const options = {
   spring: "Java Blooms Framework",
-  react: "Component Drama Queen",
   express: "Node Express Yourself",
   flask: "Python, web, flask-tastic!",
   python: "Snake",

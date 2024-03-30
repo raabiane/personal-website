@@ -22,6 +22,7 @@ const animationCompleted = {
     projectFour: false,
     projectFive: false,
     projectSix: false,
+    projectSeven: false,
 };
 
 // Function to check if a project is visible and trigger animation if not completed
@@ -49,6 +50,7 @@ function handleScroll() {
     checkProjectVisibility('.proj-four', 'projectFour', '.proj-image-right');
     checkProjectVisibility('.proj-five', 'projectFive', '.proj-image-left');
     checkProjectVisibility('.proj-six', 'projectSix', '.proj-image-right');
+    checkProjectVisibility('.proj-seven', 'projectSeven', '.proj-image-left');
 }
 
 // Add a scroll event listener to trigger animations on scroll
